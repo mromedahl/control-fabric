@@ -1,3 +1,6 @@
+;;
+;; Magnus Romedahl, 2022-08-30
+;;
 (flet ((read-lines (s)
 	 (loop for line = (read-line s nil nil)
 	       while line
